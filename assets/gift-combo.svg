@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 500" role="img" aria-label="Combo regalo de plantas">
+  <rect width="620" height="500" rx="42" fill="#fffdf8" opacity=".92"/>
+  <circle cx="498" cy="95" r="72" fill="#d9b66d" opacity=".3"/>
+  <circle cx="115" cy="390" r="102" fill="#7b9b72" opacity=".16"/>
+  <g transform="translate(92 80)">
+    <ellipse cx="214" cy="348" rx="190" ry="34" fill="#263b28" opacity=".13"/>
+    <path d="M92 242h244l-34 116H126L92 242Z" fill="#c8754d"/>
+    <path d="M72 218h285v44H72z" rx="16" fill="#e6b99f"/>
+    <path d="M206 10c52 54 87 100 87 151a87 87 0 0 1-174 0c0-51 35-97 87-151Z" fill="#526b45"/>
+    <path d="M136 150c54 0 95 41 95 95-54 0-95-41-95-95Z" fill="#7b9b72"/>
+    <path d="M278 150c-54 0-95 41-95 95 54 0 95-41 95-95Z" fill="#d9b66d"/>
+    <path d="M206 68v214" stroke="#fffdf8" stroke-width="12" stroke-linecap="round" opacity=".7"/>
+    <path d="M365 198h94v128h-94z" fill="#d9b66d"/>
+    <path d="M352 178h120v40H352z" rx="10" fill="#f2d0ba"/>
+    <path d="M412 178v148" stroke="#c8754d" stroke-width="13"/>
+    <path d="M376 176c-28-32-2-58 36-19 32-43 66-7 31 20" fill="none" stroke="#c8754d" stroke-width="11" stroke-linecap="round"/>
+  </g>
+</svg>

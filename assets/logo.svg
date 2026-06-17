@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Logo Espíritu Floral">
+  <defs>
+    <linearGradient id="g" x1="20" x2="140" y1="18" y2="142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7b9b72"/>
+      <stop offset=".55" stop-color="#526b45"/>
+      <stop offset="1" stop-color="#c8754d"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="42" fill="#fbf7ee"/>
+  <path d="M80 27c18 18 31 36 31 55a31 31 0 0 1-62 0c0-19 13-37 31-55Z" fill="url(#g)"/>
+  <path d="M56 88c14 0 24 10 24 24-14 0-24-10-24-24Z" fill="#e6b99f"/>
+  <path d="M104 88c-14 0-24 10-24 24 14 0 24-10 24-24Z" fill="#d9b66d"/>
+  <path d="M80 54v70" stroke="#fffdf8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M46 124h68l-8 17H54l-8-17Z" fill="#263b28"/>
+</svg>
