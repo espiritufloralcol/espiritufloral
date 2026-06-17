@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="Combo Verde Calma">
+  <rect width="600" height="450" rx="38" fill="#fffdf8"/>
+  <circle cx="470" cy="82" r="70" fill="#c8754d" opacity=".22"/>
+  <circle cx="115" cy="348" r="88" fill="#526b45" opacity=".12"/>
+  <ellipse cx="300" cy="378" rx="145" ry="30" fill="#263b28" opacity=".12"/>
+  <path d="M220 292h160l-25 78H245l-25-78Z" fill="#d9b66d"/>
+  <path d="M202 268h196c11 0 20 9 20 20v19H182v-19c0-11 9-20 20-20Z" fill="#e6b99f"/>
+  <path d="M300 88c48 46 82 88 82 132a82 82 0 0 1-164 0c0-44 34-86 82-132Z" fill="#526b45"/>
+  <path d="M240 210c43 0 76 33 76 76-43 0-76-33-76-76Z" fill="#7b9b72"/>
+  <path d="M360 210c-43 0-76 33-76 76 43 0 76-33 76-76Z" fill="#c8754d"/>
+  <path d="M300 128v174" stroke="#fffdf8" stroke-width="10" stroke-linecap="round" opacity=".72"/>
+  <text x="300" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#263b28">Combo Verde Calma</text>
+</svg>
