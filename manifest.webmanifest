@@ -1,0 +1,16 @@
+{
+  "name": "Espíritu Floral",
+  "short_name": "Espíritu Floral",
+  "description": "Materas y suculentas para decorar y regalar.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fbf7ee",
+  "theme_color": "#526b45",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

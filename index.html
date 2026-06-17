@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Espíritu Floral | Materas, suculentas y regalos vivos</title>
+  <meta name="description" content="Materas y suculentas para regalar, decorar espacios y crear detalles especiales. Entregas en Bogotá, Madrid y zonas cercanas. Pide fácil por WhatsApp." />
+  <meta name="keywords" content="materas decorativas, suculentas para regalo, suculentas en Bogotá, plantas decorativas, mini jardines, materas artesanales, regalos con plantas, regalos corporativos plantas" />
+  <meta name="author" content="Espíritu Floral" />
+  <meta name="robots" content="index, follow" />
+  <!-- CAMBIAR: reemplaza por el dominio real cuando publiques (ej: https://espiritufloral.com/) -->
+  <link rel="canonical" href="https://tudominio.com/" />
+
+  <meta property="og:title" content="Espíritu Floral | Materas, suculentas y regalos vivos" />
+  <meta property="og:description" content="Materas y suculentas para regalar, decorar espacios y crear detalles especiales. Entregas en Bogotá, Madrid y zonas cercanas." />
+  <meta property="og:image" content="https://tudominio.com/assets/og-image.svg" />
+  <meta property="og:url" content="https://tudominio.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_CO" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Espíritu Floral | Materas, suculentas y regalos vivos" />
+  <meta name="twitter:description" content="Materas, suculentas y detalles verdes para decorar o regalar. Entregas en Bogotá y alrededores." />
+  <meta name="twitter:image" content="https://tudominio.com/assets/og-image.svg" />
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Espíritu Floral",
+    "description": "Materas decorativas, suculentas y detalles verdes para decoración y regalos.",
+    "url": "https://tudominio.com/",
+    "image": "https://tudominio.com/assets/og-image.svg",
+    "telephone": "+57XXXXXXXXXX",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "CO",
+      "addressLocality": "Bogotá"
+    },
+    "sameAs": [
+      "https://www.instagram.com/tuusuario"
+    ]
+  }
+  </script>
+
+  <!-- ============================================================= -->
+  <!-- GOOGLE ANALYTICS (GA4) — OPCIONAL                              -->
+  <!-- Para activarlo: descomenta el bloque y pega tu ID de medición -->
+  <!-- (empieza por "G-"). Lo encuentras en analytics.google.com.    -->
+  <!-- PEGA AQUÍ TU ID DE MEDICIÓN DE GOOGLE ANALYTICS (G-XXXXXXXXXX) -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX'); // <-- reemplaza G-XXXXXXXXXX
+  </script>
+  -->
+
+  <!-- ============================================================= -->
+  <!-- META PIXEL (Facebook / Instagram Ads) — OPCIONAL              -->
+  <!-- Para activarlo: descomenta el bloque y pega tu Pixel ID.      -->
+  <!-- Lo encuentras en business.facebook.com > Administrador de eventos. -->
+  <!-- PEGA AQUÍ TU PIXEL ID DE META (solo números)                  -->
+  <!--
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'TU_PIXEL_ID'); // <-- reemplaza TU_PIXEL_ID
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=TU_PIXEL_ID&ev=PageView&noscript=1"/></noscript>
+  -->
+</head>
+
+<body>
+  <a class="skip-link" href="#catalogo">Saltar al catálogo</a>
+
+  <header class="site-header" id="inicio">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a href="#inicio" class="brand" aria-label="Ir al inicio">
+        <img src="assets/logo-trim.png" alt="Logo de Espíritu Floral" class="brand-logo" />
+        <span>Espíritu Floral</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#regalos">Regalos</a>
+        <a href="#entregas">Entregas</a>
+        <a href="#como-comprar">Cómo comprar</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <button class="cart-button header-cart" id="openCartTop" aria-label="Abrir carrito">
+        <span class="cart-icon">🛒</span>
+        <span class="cart-label">Carrito</span>
+        <span class="cart-count" id="cartCountTop">0</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-padding">
+      <div class="hero-bg-orb orb-one"></div>
+      <div class="hero-bg-orb orb-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Materas · Suculentas · Regalos vivos</p>
+          <h1>Decora tus espacios con vida</h1>
+          <p class="hero-description">
+            Materas y suculentas pensadas para llenar de calma, color y naturaleza cada rincón.
+            Ideales para escritorios, repisas, hogares, oficinas y detalles especiales.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#catalogo" class="btn btn-primary">Ver catálogo</a>
+            <a href="#" class="btn btn-secondary js-whatsapp-general">Comprar por WhatsApp</a>
+          </div>
+
+          <div class="hero-highlights" aria-label="Beneficios principales">
+            <span>🌿 Fáciles de cuidar</span>
+            <span>🎁 Ideales para regalo</span>
+            <span>🪴 Diseños decorativos</span>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="hero-product">
+            <img src="assets/principal.png" alt="Composición decorativa de suculentas en materas cálidas" />
+          </div>
+          <div class="floating-note note-one">
+            <strong>Desde $18.000</strong>
+            <span>Opciones para escritorio</span>
+          </div>
+          <div class="floating-note note-two">
+            <strong>Combos regalo</strong>
+            <span>Personalizables</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Franja de confianza / beneficios clave ===== -->
+    <section class="trust-strip" aria-label="Por qué comprar en Espíritu Floral">
+      <div class="container trust-grid">
+        <div class="trust-item reveal">
+          <span class="trust-icon">🤍</span>
+          <p>Hecho con amor y cuidado artesanal</p>
+        </div>
+        <div class="trust-item reveal">
+          <span class="trust-icon">🎁</span>
+          <p>Ideal para regalar</p>
+        </div>
+        <div class="trust-item reveal">
+          <span class="trust-icon">🚲</span>
+          <p>Entregas en Bogotá y alrededores</p>
+        </div>
+        <div class="trust-item reveal">
+          <span class="trust-icon">💬</span>
+          <p>Atención personalizada por WhatsApp</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Nuestra historia ===== -->
+    <section class="story section-padding-small" id="historia" aria-labelledby="historia-title">
+      <div class="container story-grid">
+        <div class="story-media reveal">
+          <!-- CAMBIAR FOTO: reemplaza por una foto real del taller, las manos trabajando o las materas -->
+          <img src="assets/principal.png" alt="Materas y suculentas de Espíritu Floral hechas a mano" loading="lazy" />
+        </div>
+        <div class="story-copy reveal">
+          <p class="eyebrow">Nuestra historia</p>
+          <h2 id="historia-title">Nacimos del amor por las plantas</h2>
+          <p>
+            Espíritu Floral nace del amor por las plantas, los detalles hechos con cuidado y los
+            espacios que se sienten vivos. Cada matera la preparamos pensando en quien la va a recibir.
+          </p>
+          <p>
+            Más que una planta, buscamos que cada detalle sea un regalo, un pequeño ritual o una
+            forma sencilla de traer naturaleza al hogar, la oficina o ese rincón que pedía algo de calma.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits section-padding-small" aria-labelledby="beneficios-title">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Pequeñas plantas, mucho ambiente</p>
+          <h2 id="beneficios-title">Detalles verdes que cambian un espacio</h2>
+        </div>
+
+        <div class="benefit-grid">
+          <article class="benefit-card reveal">
+            <span class="benefit-icon">🏡</span>
+            <h3>Para hogares y oficinas</h3>
+            <p>Perfectas para escritorios, salas, repisas, recepción o cualquier rincón que pida algo de vida.</p>
+          </article>
+
+          <article class="benefit-card reveal">
+            <span class="benefit-icon">🎁</span>
+            <h3>Listas para regalar</h3>
+            <p>Arma detalles bonitos para cumpleaños, amor y amistad, agradecimientos o regalos corporativos.</p>
+          </article>
+
+          <article class="benefit-card reveal">
+            <span class="benefit-icon">☀️</span>
+            <h3>Fáciles de cuidar</h3>
+            <p>Las suculentas son una gran opción para quienes quieren plantas sin convertirse en botánicos de tiempo completo.</p>
+          </article>
+
+          <article class="benefit-card reveal">
+            <span class="benefit-icon">🪴</span>
+            <h3>Diseños con encanto</h3>
+            <p>Materas decorativas, mini jardines y combos pensados para verse bien desde el primer día.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured section-padding" aria-labelledby="destacados-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Favoritos para regalar</p>
+          <h2 id="destacados-title">Los más pedidos</h2>
+          <p>Una selección rápida para quienes quieren comprar sin hacer una tesis doctoral sobre suculentas.</p>
+        </div>
+
+        <div class="featured-grid" id="featuredProducts" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="catalog section-padding" id="catalogo" aria-labelledby="catalogo-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Catálogo</p>
+          <h2 id="catalogo-title">Elige tus materas y suculentas</h2>
+          <p>Agrega productos al carrito y envía tu pedido por WhatsApp para confirmar disponibilidad, entrega y pago.</p>
+        </div>
+
+        <div class="catalog-tools reveal" role="search">
+          <label class="field">
+            <span>Buscar</span>
+            <input type="search" id="searchInput" placeholder="Ej: regalo, mini, escritorio..." autocomplete="off" />
+          </label>
+
+          <label class="field">
+            <span>Categoría</span>
+            <select id="categoryFilter">
+              <option value="todos">Todas</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Ordenar</span>
+            <select id="sortFilter">
+              <option value="destacados">Destacados</option>
+              <option value="precio-asc">Precio menor a mayor</option>
+              <option value="precio-desc">Precio mayor a menor</option>
+              <option value="nombre">Nombre A-Z</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+
+        <div class="empty-state hidden" id="emptyState">
+          <h3>No encontramos productos con ese filtro</h3>
+          <p>Prueba otra búsqueda o escríbenos por WhatsApp para preguntar por diseños disponibles.</p>
+          <a href="#" class="btn btn-secondary js-whatsapp-general">Preguntar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="gift-section section-padding" id="regalos" aria-labelledby="regalos-title">
+      <div class="container gift-grid">
+        <div class="gift-copy reveal">
+          <p class="eyebrow">Regalos vivos</p>
+          <h2 id="regalos-title">Regalos vivos para momentos especiales</h2>
+          <p>
+            Arma combos para cualquier ocasión. Podemos ayudarte a elegir según presupuesto,
+            ocasión y estilo. Cuéntanos para quién es y nosotros lo preparamos.
+          </p>
+
+          <!-- Chips de ocasiones: editables. Cada uno abre WhatsApp con el contexto de la ocasión. -->
+          <div class="gift-chips" aria-label="Ocasiones para regalar">
+            <button type="button" class="gift-chip js-whatsapp-occasion" data-occasion="cumpleaños">Cumpleaños</button>
+            <button type="button" class="gift-chip js-whatsapp-occasion" data-occasion="profes">Profes</button>
+            <button type="button" class="gift-chip js-whatsapp-occasion" data-occasion="amor y amistad">Amor y amistad</button>
+            <button type="button" class="gift-chip js-whatsapp-occasion" data-occasion="detalles de oficina">Detalles de oficina</button>
+            <button type="button" class="gift-chip js-whatsapp-occasion" data-occasion="agradecimientos">Agradecimientos</button>
+            <button type="button" class="gift-chip js-whatsapp-occasion" data-occasion="regalos corporativos">Regalos corporativos</button>
+          </div>
+
+          <ul class="check-list">
+            <li>Combos personalizados</li>
+            <li>Mensaje para tarjeta de regalo</li>
+            <li>Opciones para empresas y equipos</li>
+            <li>Entrega coordinada por WhatsApp</li>
+          </ul>
+
+          <a href="#" class="btn btn-primary js-whatsapp-gift">Quiero armar un regalo</a>
+        </div>
+
+        <div class="gift-card reveal">
+          <video
+            src="assets/detalle.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto"
+            aria-label="Combo de suculentas decorativas para regalo"
+          ></video>
+        </div>
+      </div>
+    </section>
+
+    <section class="care section-padding" id="cuidados" aria-labelledby="cuidados-title">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Cuidados básicos</p>
+          <h2 id="cuidados-title">Para que tu suculenta no entre en crisis</h2>
+          <p>Una guía sencilla para mantenerlas lindas sin dramatizar la jardinería.</p>
+        </div>
+
+        <div class="care-grid">
+          <article class="care-card reveal">
+            <span>☀️</span>
+            <h3>Luz indirecta</h3>
+            <p>Ubícala en un lugar iluminado, evitando sol fuerte durante demasiadas horas.</p>
+          </article>
+
+          <article class="care-card reveal">
+            <span>💧</span>
+            <h3>Riego moderado</h3>
+            <p>Riega solo cuando el sustrato esté seco. El exceso de agua es el villano de esta historia.</p>
+          </article>
+
+          <article class="care-card reveal">
+            <span>🌬️</span>
+            <h3>Buen drenaje</h3>
+            <p>Procura que la matera permita respirar al sustrato y evitar encharcamientos.</p>
+          </article>
+
+          <article class="care-card reveal">
+            <span>🧽</span>
+            <h3>Limpieza suave</h3>
+            <p>Retira polvo de hojas y matera con delicadeza para conservar su aspecto decorativo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-to section-padding" id="como-comprar" aria-labelledby="comprar-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Proceso de compra</p>
+          <h2 id="comprar-title">Comprar es fácil</h2>
+        </div>
+
+        <div class="steps">
+          <article class="step reveal">
+            <span>1</span>
+            <h3>Elige tus productos</h3>
+            <p>Explora el catálogo, filtra por categoría y agrega tus favoritos al carrito.</p>
+          </article>
+
+          <article class="step reveal">
+            <span>2</span>
+            <h3>Revisa tu pedido</h3>
+            <p>Confirma cantidades, nota de regalo, nombre y zona de entrega.</p>
+          </article>
+
+          <article class="step reveal">
+            <span>3</span>
+            <h3>Envía por WhatsApp</h3>
+            <p>Te llegará el mensaje armado para confirmar disponibilidad, entrega y pago.</p>
+          </article>
+
+          <article class="step reveal">
+            <span>4</span>
+            <h3>Coordinamos entrega</h3>
+            <p>Definimos detalles finales y listo: una plantica más intentando salvar el ambiente humano.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Packs / pedidos corporativos ===== -->
+    <section class="corporate section-padding" id="corporativo" aria-labelledby="corporativo-title">
+      <div class="container corporate-inner reveal">
+        <div class="corporate-copy">
+          <p class="eyebrow">Pedidos por cantidad</p>
+          <h2 id="corporativo-title">Detalles corporativos y pedidos por cantidad</h2>
+          <p>
+            Preparamos materitas y detalles verdes para empresas, colegios, eventos, fondos de
+            empleados y celebraciones. Cantidades grandes, presentación cuidada y acompañamiento
+            en todo el proceso.
+          </p>
+        </div>
+        <a href="#" class="btn btn-primary js-whatsapp-corporate">Cotizar pedido especial</a>
+      </div>
+    </section>
+
+    <!-- ===== Información de entregas ===== -->
+    <section class="delivery section-padding-small" id="entregas" aria-labelledby="entregas-title">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Entregas</p>
+          <h2 id="entregas-title">Llevamos tus materitas hasta tu puerta</h2>
+          <p>Coordinamos cada entrega por WhatsApp para que llegue bien y a tiempo.</p>
+        </div>
+
+        <div class="delivery-grid">
+          <article class="delivery-card reveal">
+            <span>📍</span>
+            <h3>Bogotá</h3>
+            <p>Entrega a coordinar según tu zona.</p>
+          </article>
+          <article class="delivery-card reveal">
+            <span>🏘️</span>
+            <h3>Madrid / Cundinamarca</h3>
+            <p>Entrega a coordinar según disponibilidad.</p>
+          </article>
+          <article class="delivery-card reveal">
+            <span>🗺️</span>
+            <h3>Otras zonas</h3>
+            <p>Consúltanos por WhatsApp y miramos opciones.</p>
+          </article>
+        </div>
+        <p class="delivery-note reveal">
+          El valor del domicilio se confirma según la ubicación al coordinar el pedido.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Métodos de pago ===== -->
+    <!-- CAMBIAR: no incluimos números de cuenta por seguridad. Los datos     -->
+    <!-- exactos se comparten por WhatsApp al confirmar el pedido.            -->
+    <section class="payment section-padding-small" id="pagos" aria-labelledby="pagos-title">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Métodos de pago</p>
+          <h2 id="pagos-title">Paga fácil y a tu manera</h2>
+          <p>Te compartimos los datos de pago por WhatsApp al confirmar tu pedido.</p>
+        </div>
+
+        <div class="payment-grid">
+          <div class="payment-card reveal">
+            <span>📱</span>
+            <strong>Nequi</strong>
+          </div>
+          <div class="payment-card reveal">
+            <span>💜</span>
+            <strong>Daviplata</strong>
+          </div>
+          <div class="payment-card reveal">
+            <span>🏦</span>
+            <strong>Transferencia Bancolombia</strong>
+          </div>
+          <div class="payment-card reveal">
+            <span>💵</span>
+            <strong>Efectivo contra entrega</strong>
+            <small>Si aplica en tu zona</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section-padding-small" aria-labelledby="testimonios-title">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Clientes felices</p>
+          <h2 id="testimonios-title">Detalles que enamoran espacios</h2>
+        </div>
+
+        <!-- ============================================================ -->
+        <!-- IMPORTANTE: estos testimonios son FICTICIOS y de ejemplo.    -->
+        <!-- REEMPLÁZALOS por testimonios reales (nombre, comentario y    -->
+        <!-- ciudad/zona) antes de publicar. Puedes pedir permiso a tus   -->
+        <!-- clientes para usar su nombre.                                -->
+        <!-- ============================================================ -->
+        <div class="testimonial-grid">
+          <blockquote class="testimonial reveal">
+            <p>“Me encantó, llegó hermosa y muy bien presentada. Era justo para mi escritorio.”</p>
+            <footer>
+              <strong>Laura M.</strong>
+              <span>Chapinero, Bogotá</span>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial reveal">
+            <p>“La compré para regalo y fue un éxito. Se veía delicada y muy cuidada.”</p>
+            <footer>
+              <strong>Andrés R.</strong>
+              <span>Madrid, Cundinamarca</span>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial reveal">
+            <p>“Me ayudaron a elegir un combo según mi presupuesto. Súper fácil por WhatsApp.”</p>
+            <footer>
+              <strong>Daniela P.</strong>
+              <span>Suba, Bogotá</span>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-padding" id="contacto" aria-labelledby="contacto-title">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Contacto</p>
+          <h2 id="contacto-title">Escríbenos y coordinamos tu pedido</h2>
+          <p>
+            Pregunta por disponibilidad, diseños personalizados, entregas, regalos corporativos y productos de temporada.
+          </p>
+
+          <div class="contact-list">
+            <p><strong>WhatsApp:</strong> <a href="#" class="js-whatsapp-general">+57 XXX XXX XXXX</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/tuusuario" target="_blank" rel="noopener">@tuusuario</a></p>
+            <p><strong>Horario:</strong> Lunes a sábado · 9:00 a.m. a 6:00 p.m.</p>
+            <p><strong>Entregas:</strong> Bogotá y alrededores, editable según cobertura.</p>
+          </div>
+        </div>
+
+        <form class="quick-form reveal" id="quickContactForm">
+          <h3>Pedido rápido</h3>
+          <label>
+            Nombre
+            <input type="text" id="quickName" placeholder="Tu nombre" />
+          </label>
+          <label>
+            ¿Qué estás buscando?
+            <textarea id="quickMessage" rows="4" placeholder="Ej: quiero una suculenta para regalo, presupuesto $50.000..."></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary full">Enviar consulta por WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#inicio" class="brand footer-brand">
+          <img src="assets/logo-trim.png" alt="" class="brand-logo" />
+          <span>Espíritu Floral</span>
+        </a>
+        <p>Materas y suculentas para decorar, regalar y darle un respiro verde a los espacios.</p>
+      </div>
+
+      <div>
+        <h3>Enlaces</h3>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#regalos">Regalos</a>
+        <a href="#entregas">Entregas</a>
+        <a href="#pagos">Métodos de pago</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <div>
+        <h3>Compra</h3>
+        <a href="#" class="js-whatsapp-general">WhatsApp</a>
+        <button class="footer-cart-link" id="openCartFooter">Ver carrito</button>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Espíritu Floral. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <button class="floating-cart" id="openCartFloating" aria-label="Abrir carrito">
+    🛒
+    <span id="cartCountFloating">0</span>
+  </button>
+
+  <a href="#" class="floating-whatsapp js-whatsapp-general" aria-label="Escribir por WhatsApp">
+    WhatsApp
+  </a>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true" aria-labelledby="cartTitle">
+    <div class="cart-backdrop" id="cartBackdrop"></div>
+
+    <div class="cart-panel" role="dialog" aria-modal="true">
+      <div class="cart-header">
+        <div>
+          <p class="eyebrow">Tu pedido</p>
+          <h2 id="cartTitle">Carrito de compras</h2>
+        </div>
+        <button class="icon-button" id="closeCart" aria-label="Cerrar carrito">×</button>
+      </div>
+
+      <div class="cart-items" id="cartItems"></div>
+
+      <div class="cart-extra">
+        <label>
+          Tu nombre
+          <input type="text" id="buyerName" placeholder="Ej: Catalina" />
+        </label>
+
+        <label>
+          Zona o barrio de entrega
+          <input type="text" id="deliveryZone" placeholder="Ej: Chapinero, Madrid, Suba..." />
+        </label>
+
+        <label class="checkbox-line">
+          <input type="checkbox" id="giftCheck" />
+          <span>Es para regalo</span>
+        </label>
+
+        <label>
+          Mensaje para tarjeta o nota del pedido
+          <textarea id="giftNote" rows="3" placeholder="Ej: Feliz cumpleaños, gracias por tanto..."></textarea>
+        </label>
+      </div>
+
+      <div class="cart-summary">
+        <div>
+          <span>Subtotal</span>
+          <strong id="cartSubtotal">$0</strong>
+        </div>
+        <small>El valor final puede cambiar según disponibilidad, personalización o domicilio.</small>
+      </div>
+
+      <div class="cart-actions">
+        <button class="btn btn-secondary full" id="clearCart">Vaciar carrito</button>
+        <button class="btn btn-primary full" id="checkoutWhatsapp">Finalizar pedido por WhatsApp</button>
+      </div>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
